@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glitchy Lain com efeito CRT - Responsivo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Glitchy Header com IMG -->
+    <div class="glitch-wrapper">
+        <h1 class="glitch" data-text="WELCOME TO THE WIRED">WELCOME TO THE WIRED</h1>
+        <h2>O meu Cyber CV:</h2>
+        <img src="img\lain_glitchy.webp" alt="lain">
+    </div>
+
+    <!-- Secções Repartidas -->
+    <section class="section" data-target="about-popup">
+        <h2>Sobre Mim . . .</h2>
+        <p>CLicar para saber mais</p>
+    </section>
+
+    <section class="section" data-target="philosophy-popup">
+        <h2>Filosofia e Inspiração . . .</h2>
+        <p>Clicar para Explorar</p>
+    </section>
+
+    <section class="section" data-target="technology-popup">
+        <h2>Tech Stack que domino + a que estou a estudar . . .</h2>
+        <p>Clicar para Explorar</p>
+    </section>
+
+    <section class="section" data-target="hobbies-popup">
+        <h2>Hobbies . . .</h2>
+        <p>Clicar para mais detalhes</p>
+    </section>
+
+    <section class="section" data-target="contact-popup">
+        <h2>Contactos . . .</h2>
+        <p>Clicar para entrar em contacto</p>
+    </section>
+
+    
+    <!-- Pop-ups que aparecem em cada secção clicada -->
+    <div id="about-popup" class="popup">
+        <span class="close-btn">&times;</span>
+        <h2>Sobre Mim</h2>
+        <p>Este Website/CV é um tributo a "Serial Experiments Lain" & com estética cyberpunk.</p>
+        <p>Sou maioritariamente auto-didata, sou mais front-end'er mas gosto de tudo um pouco sobre a web, desde UI UX a Web Dev a Cyber-Segurança.</p>
+    </div>
+
+    <div id="philosophy-popup" class="popup">
+        <span class="close-btn">&times;</span>
+        <h2>Filosofia e Inspiração</h2>
+        <p>Exploração de Temas Existenciais sobre Tech & Identidade na Era Digital.</p>
+    </div>
+
+    <div id="hobbies-popup" class="popup">
+        <span class="close-btn">&times;</span>
+        <h2>Hobbies</h2>
+        <p>Arte Digital, Front end Design/Dev & Cyber Segurança</p>
+    </div>
+
+    <div id="technology-popup" class="popup">
+        <span class="close-btn">&times;</span>
+        <h2>Tech Stack</h2>
+        <!-- <p>Embracing the Wired as an extension of human consciousness.</p> -->
+         <p>HTML&CSS + Frameworks</p>
+         <p>UI UX, FIGMA, CANVA; Adobe - a aprender</p>
+         <p>REACT, NODE, NPM, Express.js - a aprender</p>
+         <p>WordPress</p>
+         <p>Wireshark, Nmap, Metasploit, OSINT, OWASP, Kali - a aprender</p>
+    </div>
+
+    <div id="contact-popup" class="popup">
+        <span class="close-btn">&times;</span>
+        <h2>Contactos</h2>
+        <p>O meu E-mail: example@hotmail.com</p>
+    </div>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2025 The Wired, feito por Joana Santos, inspirada por media Cyberpunk</p>
+    </footer>
+    <!-- Setinha para voltar ao inicio -->
+    <a href="#top" class="back-to-top">&#8679; Voltar ao TOPO</a>
+    <!-- Script para a setinha -->
+    <script src="script.js"></script>
+
+</body>
+</html>
